@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<htmL>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CHUNGA RESUME</title>
+<!--    <meta property="og:type" content="website" />-->
+<!--    <meta property="og:site_name" content="Chunga's Resume" />-->
+<!--    <meta property="og:title" content="Chunga's Resume" />-->
+<!--    <meta property="og:description" content="Chunga Lee is ready for working as passionate intern." />-->
+<!--    <meta property="og:image" content="./images/chunga.png" />-->
+<!--    <meta property="og:url" content="/" />-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="./favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+<!--    <gsap>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
+
+    <!--Swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+
+    <script defer src="./js/main.js"></script>
+
+</head>
+
+<body>
+<header>
+    <div class="inner">
+        <a href="index.html" class="logo">
+            <img src="./images/chunga.png" alt="CHUNGA_LOGO" />
+        </a>
+        <h2 class="contents">CHUNGA'S RESUME</h2>
+        <h3 class="content2">WELCOME TO CHUNGA'S WORLD</h3>
+    </div>
+</header>
+
+<section class="main">
+    <div class="inner">
+        <div class="profile">
+            <img src="./images/chunga.jpeg" alt="Chunga Picture" class="cPicture" />
+            <p class="info">
+                CHUNGA LEE <br>
+                <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=chunga7879@gmail.com" target="_blank" id="email">chunga7879@gmail.com <br> (click here if you want to email me)</a> <br>
+                778-873-8528 <br>
+                5959 Student Union Blvd <br>
+                Vancouver BC V6T 1K2 <br>
+                (UBC Sturgeon House) <br>
+            </p>
+        </div>
+        <video width="550" height="320" controls>
+            <source src="./videos/intro.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+    <div class="kinds">
+       <div class="swiper-container">
+           <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                   <img src="./images/major.png" alt="UBC LOGO" />
+                   <a href="./education" class="btn">DETAILS</a>
+               </div>
+               <div class="swiper-slide">
+                   <img src="./images/experience.png" alt="EXPERIENCE LOGO" />
+                   <a href="./experience" class="btn">DETAILS</a>
+               </div>
+               <div class="swiper-slide">
+                   <img src="./images/project.png" alt="PROJECT LOGO" />
+                   <a href="./project" class="btn">DETAILS</a>
+               </div>
+               <div class="swiper-slide">
+                   <img src="./images/additional.png" alt="ADDITIONAL INFORMATION LOGO" />
+                   <a href="./additional" class="btn">DETAILS</a>
+               </div>
+           </div>
+       </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-prev">
+            <span class="material-icons">arrow_back</span>
+        </div>
+        <div class="swiper-next">
+            <span class="material-icons">arrow_forward</span>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="inner">
+        <div class="info">
+            <span>(Owner)Chunga Lee</span>
+            <span>TEL : 778) 873-8528</span>
+            <span>EMAIL : chunga7879@gmail.com</span>
+        </div>
+
+        <p class="copyright">
+            &copy; <span class="right"></span> Chunga Lee. All Rights Reserved.
+        </p>
+        <img src="./images/chunga_logo.png" alt="CHUNGA LEE" class="logo" />
+
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+#icon {
+    text-decoration: black;
+}
+
+.inner .teaching {
+    height: 730px;
+    font-size: 20px;
+}
+
+.inner .teaching .material-icons {
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    font-size: 280px;
+}
+
+.inner .teaching .content1 {
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    left: 450px;
+    top: 170px;
+}
+
+.inner .teaching .content2 {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 450px;
+    top: 230px;
+}
+
+.inner .teaching p {
+    font-size: 18px;
+    position: absolute;
+    left: 450px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    margin-top: 10px;
+}
+
+.inner .teaching .content3 {
+    top: 400px;
+}
+
+.inner .teaching .content4 {
+    top: 530px;
+}
+
+.inner .others {
+    position: absolute;
+    left: 450px;
+    top: 650px;
+    font-size: 22px;
+    font-weight: bold;
+}
