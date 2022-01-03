@@ -1,0 +1,29 @@
+.main {
+    height: 900px;
+}
+
+.main .first {
+    display: flex;
+    position: absolute;
+    top: 150px;
+}
+
+.main .second {
+    display: flex;
+    position: absolute;
+    top: 500px;
+
+}
+
+.main a {
+    font-size: 20px;
+    color: blue;
+    margin-left: 20px;
+    margin-top: 250px;
+
+}
+
+.main p {
+    font-size: 18px;
+    margin-top: 50px;
+}
