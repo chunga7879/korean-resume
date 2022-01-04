@@ -104,11 +104,11 @@
     transition: .4s;
 }
 .kinds .swiper-prev {
-    left: 50%;
+    left: 25%;
 
 }
 .kinds .swiper-next {
-    right: 50%;
+    right: 25%;
 
 }
 
