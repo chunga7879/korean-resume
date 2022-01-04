@@ -20,6 +20,11 @@
     font-size: 25px;
 }
 
+.educationInfo .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
 .main .courses {
     margin: 20px 0;
 }

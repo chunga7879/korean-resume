@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<htmL xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,7 +20,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
 
-    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
 
 </head>
 <body>
@@ -37,16 +38,16 @@
 <section class="main">
     <div class="inner">
         <div class="basic">
-            <img src="../images/ubc-logo.jpg" alt="ubc logo" class="ubcLogo fade-in" />
+            <img src="../images/ubc-logo.jpg" alt="ubc logo" class="ubcLogo" />
 
-            <div class="educationInfo fade-in">
+            <div class="educationInfo">
                 <h3>University of British Columbia</h3>
                 <h4>Bachelor of Science - Major in Computer Science</h4>
                 <h5>Year attended - Sep 2019 ~ May 2023(expected)</h5>
             </div>
         </div>
         <div class="coursesInfo">
-            <div class="courses fade-in">
+            <div class="courses">
                 <img src="../images/transcript.png" alt="ubc transcript" class="transcript" />
                 <h5>Average of CPSC(computer science) courses is A(88.2%)</h5>
             </div>
@@ -84,6 +85,22 @@
 
     </div>
 </footer>
+
+<script>
+    var textWrapper = document.querySelector('.educationInfo h3');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({loop: false})
+        .add({
+            targets: '.educationInfo .letter',
+            scale: [4,1],
+            opacity: [0,1],
+            translateZ: 0,
+            easing: "easeOutExpo",
+            duration: 1300,
+            delay: (el, i) => 80*i
+        });
+</script>
 
 </body>
 

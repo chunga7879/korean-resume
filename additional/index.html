@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<script src="../js/main.js"></script>
-<htmL>
+<html>
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,8 +22,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
 
-    <script defer src="../js/main.js"></script>
-
 </head>
 
 <body>
@@ -40,21 +37,21 @@
 
 <section class="main">
     <div class="inner">
-        <div class="language fade-in">
-            <div class="material-icons">language</div>
-            <p class="content1">
+        <div class="language">
+            <div class="material-icons first">language</div>
+            <p class="fade-in-one">
                 Korean (as first-language) <br>
                 English (Proficient) <br>
                 Japanese (Study from high school & Took 100s level in University - Basic conversation or writing possible) <br>
                 French (Took one course in University - really basic listening and speaking)
             </p>
         </div>
-        <div class="programming fade-in">
-            <p class="content2">
+        <div class="programming">
+            <p class="fade-in-two">
                 Java script(+ TS), CSS(+ SCSS), HTML, Vue, React
                 Java, Python, C, C++
             </p>
-            <div class="material-icons">computer</div>
+            <div class="material-icons second">computer</div>
         </div>
     </div>
 </section>
@@ -74,6 +71,30 @@
 
     </div>
 </footer>
+
+<script>
+
+    gsap.fromTo(".inner .material-icons.first", {opacity: 0}, {
+        delay: .5,
+        opacity: 1
+    })
+
+    gsap.fromTo(".inner .fade-in-one", {opacity: 0}, {
+        delay: 1,
+        opacity: 1
+    })
+
+    gsap.fromTo(".inner .material-icons.second", {opacity: 0}, {
+        delay: 1.5,
+        opacity: 2
+    })
+
+    gsap.fromTo(".inner .fade-in-two", {opacity: 0}, {
+        delay: 2,
+        opacity: 1
+    })
+
+</script>
 
 </body>
 </html>

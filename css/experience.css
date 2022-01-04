@@ -19,8 +19,14 @@
     font-size: 35px;
     font-weight: bold;
     position: absolute;
-    left: 450px;
+    left: 440px;
     top: 170px;
+}
+
+.explain .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
 }
 
 .inner .teaching .content2 {
