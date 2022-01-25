@@ -12,12 +12,6 @@
     display: flex;
 }
 
-.main .inner video {
-    position: absolute;
-    top: 90px;
-    right: 0;
-}
-
 .main .profile {
     position: absolute;
     display: flex;
@@ -30,6 +24,17 @@
 .main .profile p {
     margin-top: 50px;
     margin-left: 20px;
+}
+
+.main .inner #download {
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+
+.main .inner .material-icons {
+    position: absolute;
+    font-size: 300px;
 }
 
 .main .kinds {
