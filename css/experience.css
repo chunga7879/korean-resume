@@ -2,9 +2,9 @@
     text-decoration: black;
 }
 
-.inner {
+.experience .inner {
     display: flex;
-    overflow: scroll;
+    min-height: 910px;
 }
 
 .inner .teaching {
