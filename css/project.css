@@ -6,18 +6,12 @@
     height: 400px;
 }
 
-.main .second, .main .third {
+.main .second, .main .third, .main .first {
     display: flex;
 }
 
 .main .four, .main .five {
     height: 400px;
-    display: flex;
-}
-
-.main .first {
-    min-height: 400px;
-    margin-top: 180px;
     display: flex;
 }
 
@@ -35,7 +29,7 @@
 
 .main .inner .container_project .download.one {
     position: relative;
-    top: -55px;
+    top: 20px;
 }
 
 .main .inner .container_project .download.two, .main .inner .container_project .download.three {
@@ -57,9 +51,31 @@
     margin-left: 50px;
 }
 
-.container_project .github {
-    margin-top: -50px;
+.main .inner .container_project.five {
+    margin-top: 40px;
+}
 
+.main .inner .container_project.four {
+    margin-top: 200px;
+}
+
+.container_project .github.four {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_project .github.four {
+    position: absolute;
+    left: 0;
+    top: 350px;
+    margin-right: 100px;
+}
+
+.container_project.five .five .github.five {
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+    margin-top: 90px;
 }
 
 .container_project .github span {
@@ -70,11 +86,13 @@
     font-size: 20px;
     border: 2px solid orange;
     border-radius: 3px;
-    padding:5px;
+    padding: 5px;
     margin-left: 5px;
     margin-right: 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
 }
-
 
 .main .content.vi p {
     font-size: 20px;
