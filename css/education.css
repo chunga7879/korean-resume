@@ -37,6 +37,11 @@
     margin: 20px 0;
 }
 
+.main .courses img {
+    height: 800px;
+    width: 600px;
+}
+
 .main .courses h5 {
     font-size: 23px;
     left: 10px;

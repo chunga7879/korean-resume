@@ -82,7 +82,9 @@
     font-size: 30px;
 }
 
-.container_project .github a {
+
+
+.container_project .github a, .container_project .githubButton {
     font-size: 20px;
     border: 2px solid orange;
     border-radius: 3px;
@@ -92,6 +94,10 @@
     /*width: 150px;*/
     /*height: 50px;*/
     text-align: center;
+}
+
+.container_project .githubButton {
+    width: 30%;
 }
 
 .main .content.vi p {
