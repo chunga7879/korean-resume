@@ -60,7 +60,6 @@ header .content2 {
     left: 158px;
     margin-top: 20px;
     width: 130px;
-    padding: 20px;
     border: 2px solid #333;
     border-radius: 4px;
     color: #333;
@@ -78,9 +77,6 @@ header .content2 {
 }
 
 footer {
-
-    background-color: #272727;
-    border-top: 1px solid #333;
     width: 100%;
 }
 

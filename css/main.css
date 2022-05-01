@@ -98,12 +98,12 @@ header .inner .material-icons {
     opacity: 1;
 }
 .kinds .swiper-slide .btn {
-    /*width: 130px;*/
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
+    padding: 20px;
 }
 .kinds .swiper-pagination {
     bottom: 40px;
