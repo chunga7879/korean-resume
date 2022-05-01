@@ -1,5 +1,5 @@
 .main .inner.additional {
-    height: 920px;
+    height: 1050px;
 }
 
 .main .language{
@@ -9,7 +9,7 @@
 }
 
 .main p {
-    font-size: 20px;
+    font-size: 40px;
     margin-top: 20px;
 }
 
@@ -20,15 +20,16 @@
 
 .main .programming{
     position: absolute;
-    top: 400px;
+    top: 600px;
     right: 0;
     display: flex;
     justify-content: flex-end;
+    text-align: right;
 }
 
 .main .programming p{
-    margin-top: 50px;
-    margin-right: 10px;
+    margin-top: 30px;
+    margin-right: 40px;
 }
 
 

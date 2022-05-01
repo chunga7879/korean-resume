@@ -19,7 +19,7 @@ header .inner .material-icons {
 .main {
     position: relative;
     top: 70px;
-    height: 1150px;
+    height: 1400px;
 }
 
 .main .info #email {
@@ -27,13 +27,16 @@ header .inner .material-icons {
 }
 
 .main .inner {
+    position: relative;
     display: flex;
+    height: 100px;
+    margin-bottom: 75px;
 }
 
 .main .profile {
     position: absolute;
     display: flex;
-    top: 125px;
+    top: 160px;
     padding: 10px;
     border: 2px solid #333;
     border-radius: 10%;
@@ -47,14 +50,20 @@ header .inner .material-icons {
 }
 
 .main .highlights h1 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.main .highlights li {
+    font-size: 20px;
+    margin-bottom: 3px;
 }
 
 .main .profile p {
     margin-top: 50px;
     margin-left: 20px;
+    font-size: 20px;
 }
 
 
@@ -62,7 +71,7 @@ header .inner .material-icons {
     position: relative;
     top: 400px;
     width: auto;
-    height: 696px;
+    height: 50%;
 }
 
 .kinds .swiper-container {

@@ -3,38 +3,37 @@
 }
 
 .main .container_project {
-    height: 400px;
+    min-height: 400px;
 }
 
-.main .second, .main .third, .main .first {
+.main .container_project {
+    margin-top: 20px;
+}
+
+.main .container_project.first {
+    margin-top: 180px;
+}
+
+.main .container_project.second {
+    margin-top: 50px;
+
+}
+
+.main .part1 {
     display: flex;
 }
 
-.main .four, .main .five {
-    height: 400px;
-    display: flex;
+.main .container_project .content.with {
+    margin-left: 50px;
+    /*padding-top: 20px;*/
+}
+.main .content p {
+    font-size: 25px;
 }
 
-.main .inner .container_project .download {
+.main .content span, div, p {
     font-size: 20px;
-    font-weight: 1000;
-    text-align: center;
-    border: 2px solid orange;
-    border-radius: 3px;
-    padding: 10px;
-    width: 300px;
-    height: 70px;
-    margin-left: 130px;
-}
-
-.main .inner .container_project .download.one {
-    position: relative;
-    top: 20px;
-}
-
-.main .inner .container_project .download.two, .main .inner .container_project .download.three {
-    position: relative;
-    top: 25px;
+    padding-bottom: 3px;
 }
 
 .main .content h2 {
@@ -47,65 +46,40 @@
     font-size: 20px;
 }
 
-.main .content.vi, .main .four .content, .main .five .content {
-    margin-left: 50px;
-}
 
-.main .inner .container_project.five {
-    margin-top: 40px;
-}
-
-.main .inner .container_project.four {
-    margin-top: 200px;
-}
-
-.container_project .github.four {
+.container_project .github {
     display: flex;
     flex-direction: column;
 }
 
-.container_project .github.four {
-    position: absolute;
-    left: 0;
-    top: 350px;
-    margin-right: 100px;
+.container_project .github {
+    margin-top: 10px;
 }
 
-.container_project.five .five .github.five {
+.container_project.first .lists, .container_project.second .lists {
     display: flex;
-    flex-direction: column;
-    min-width: 450px;
-    margin-top: 90px;
-}
-
-.container_project .github span {
-    font-size: 30px;
 }
 
 
-
-.container_project .github a, .container_project .githubButton {
+.container_project .github a {
     font-size: 20px;
+    font-weight: bold;
     border: 2px solid orange;
-    border-radius: 3px;
-    padding: 5px;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    padding: 15px 5px 5px;
     margin-left: 5px;
     margin-right: 20px;
-    /*width: 150px;*/
-    /*height: 50px;*/
+    width: 190px;
+    height: 50px;
     text-align: center;
 }
 
-.container_project .githubButton {
-    width: 30%;
-}
-
-.main .content.vi p {
-    font-size: 20px;
-}
-
-.main .content.vi span {
-    font-size: 20px;
+.container_project .github a:hover {
+    background-color: orange;
+    color: white;
+    font-size: 30px;
 }
 
 
